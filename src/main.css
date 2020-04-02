@@ -287,7 +287,8 @@ body {
   padding-left: 5px;
 }
 
-.ct-input, textarea {
+.ct-input,
+textarea {
   outline: none !important;
   border: none;
   display: block;
@@ -297,11 +298,13 @@ body {
   line-height: 1.5;
   color: #495057;
   font-weight: bold;
-  background-color: #fff;
+  background-color:#edf7ff;
   background-clip: padding-box;
   border-bottom: 2px solid darkgrey;
   transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
 }
+
 .ct-input::placeholder {
   color: #495057;
   font-size: 2.em;
@@ -313,6 +316,7 @@ textarea::placeholder {
   font-size: 2.em;
   font-weight: bold;
 }
+
 textarea {
   outline: none;
 }
@@ -321,10 +325,20 @@ textarea {
   border-bottom: 2px solid #ff4b5a;
 
 }
-@media only screen and (max-width: 600px) {
- /* cho màn hình dưới 600px (mobile) */
+
+/* @media only screen and (max-width: 600px) {
   body {
     background-color: cadetblue;
   }
-/* Sửa max thành min-width thì nhận css ngay lập tức*/
+} */
+
+@media (min-width: 480px) {
+  body {
+    background-color: #edf7ff;
+  }
+
+  .carousel-caption {
+    bottom: 45%;
+    color: darkred;
+  }
 }
