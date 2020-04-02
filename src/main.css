@@ -330,15 +330,16 @@ textarea {
   body {
     background-color: cadetblue;
   }
-} */
+*/
 
-@media (min-width: 480px) {
+@media (max-width: 600px) {
   body {
-    background-color: #edf7ff;
+    background-color: darkseagreen !important;
+    font-size: 1.25em;
   }
 
   .carousel-caption {
-    bottom: 45%;
     color: darkred;
+    
   }
 }
