@@ -333,12 +333,16 @@ textarea {
 */
 
 @media (max-width: 600px) {
-  body {
-    font-size: 1.25em;
-  }
 
   .carousel-caption {
     color: darkred;
     
+  }
+  .img-itro {
+    width: 90% !important;
+    height: auto;
+  }
+  .blk-sologan {
+    font-size: 1.5em;
   }
 }
