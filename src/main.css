@@ -333,7 +333,10 @@ textarea {
 */
 
 @media (max-width: 600px) {
+  .carousel, .carousel-inner, .carousel-control-prev {
+    height: 300px !important;
 
+  }
   .carousel-caption {
     color: darkred;
     
