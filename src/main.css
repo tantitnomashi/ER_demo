@@ -146,7 +146,9 @@ body {
   background-size: cover;
   padding-top: 120px;
 }
-
+#carousel-mobile{
+  display: none;
+}
 #rosy-box {
   position: absolute;
   top: 15%;
@@ -333,10 +335,24 @@ textarea {
 */
 
 @media (max-width: 600px) {
-  .carousel, .carousel-inner, .carousel-control-prev {
-    height: 300px !important;
-
+  #carouselExampleIndicators {
+    display: none !important;
   }
+  /* for blk Rosy*/
+  #carousel-mobile {
+  display: block;
+  position: relative;
+  /* The image used */
+  background-image: url("./img/cover_mobile.png");
+  /* Full height */
+  height: 300px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+}
+
   .carousel-caption {
     color: darkred;
     
