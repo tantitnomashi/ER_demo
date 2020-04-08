@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Essential Robot Pte. Ltd. </title>
+  <link rel="shortcut icon" type="image/png" href="src/img/icon128.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="src/jquery-3.4.1.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/bootstrap.min.css">
+  <link rel="stylesheet" href="src/main.css">
+  <link rel="stylesheet" href="src/animate.css">
+
+  <style>
+    html {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      color: black;
+      background-color: #edf7ff;
+      margin: 0;
+    }
+
+    /* for navbar and slider*/
+    .logo-company {
+      width: 120px;
+      height: 50px;
+    }
+
+    .blk-intro {
+      color: black;
+    }
+
+    .img-itro {
+      width: 60%;
+      height: auto;
+    }
+
+    /* for robot cate*/
+    .robot-item {
+      margin-top: 1em;
+    }
+
+    .robot-item img {
+      width: 100%;
+      height: 280px;
+    }
+
+    /* for blk-sologan*/
+    .blk-sologan {
+      color: white;
+      font-weight: 100;
+    }
+
+    /* for media and news*/
+
+    .media-logo {
+      width: 300px;
+      height: auto;
+    }
+
+    .media-news {
+      font-family: 'Roboto Slab', serif;
+    }
+
+    .media-news a {
+      color: black;
+      margin: 10px;
+    }
+
+    .img-news {
+      width: 150px;
+      height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./src/img/logo_white_r.png" class="logo-company" alt=""></a>
+      <div class="collapse navbar-collapse row" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active col-xs-12 col-md-2">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+
+          <li class="nav-item col-xs-12 col-md-2">
+            <a class="nav-link" href="#">Robots</a>
+          </li>
+
+          <li class="nav-item col-xs-12 col-md-2">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item col-xs-12 col-md-2">
+            <a class="nav-link"  href="#contact-us">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="src/img/cover2.jpg" alt="First slide">
+        <div class="carousel-caption logo-caption d-none d-md-block">
+          <h5><img style="width: 500px; height: 200px;" src="src/img/rsz_logo_white.png" alt=""></h5>
+          <p> Innovation and Excellence in Robotics and Cloud-based Content.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="src/img/NewCloudmindsbackground-1.jpg" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Coddie Robot</h5>
+          <p> Coding buddy in Education</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="src/img/cover1.jpg" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Tan Tran M.</h5>
+          <p>Better Technology Better Life ...</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div id="carousel-mobile">
+
+  </div>
+  <div class="container main-page">
+    <div class="row my-5 blk-intro text-center">
+      <div class="col-md-12 col-lg-6 intro text-left wow bounceInLeft ">
+        <h2>What We Do At <strong style="color: darkslategray;">Essential Robot</strong></h2>
+        <p>
+          To operate smart robots for people, currently we build and operate an open end-to-end cloud robot
+          system, and offer it as a service to the world. Our pioneering world-class architecture connects
+          robots and smart devices over a secure Virtual Backbone Networks (VBNs) to Cloud AI. Our Human
+          Augmented Robotics Intelligence with Extreme Reality (HARIX) platform is an ever evolving “cloud brain”
+          capable of operating millions of cloud AI robots performing different tasks simultaneously. Complemented
+          by our smart joint technology (SCA), our cloud AI capabilities include Natural Language Processing (NLP),
+          Computer Vision (CV), navigation, and vision-controlled manipulation that’s
+          bringing a vibrant cloud ecosystem of next generation robotics and smart devices to many industry value
+          chains.
+        </p>
+        <button class="btn" type="button"><span>Explore more about us</span></button>
+      </div>
+      <div class="col-xs-12 col-lg-6 text-center">
+        <img class="img-itro mx-auto" src="src/img/demo_logo.jpeg" />
+      </div>
+    </div>
+    <div class=" my-5 blk-categorie text-center">
+      <h2 class="mx-auto"> Different robots in different fields</h2>
+      <p><strong>Essential Robotics Company is reimagining farming with robotics and artificial intelligence</strong>
+      </p>
+      <p class="mx-auto"> Our vision is to make food production sustainable, reducing farming’s impact on the
+        environment
+        and increasing farm outputs globally. Our farmbots Tom, Dick and Harry will plant,
+        feed and weed arable crops autonomously, with minimal waste. </p>
+
+      <div class="row mt-3 robot-cate">
+        <div class="col-xs-12 col-md-6 col-lg-4 robot-item text-center wow bounceInUp " data-wow-delay="0.1s">
+          <a target="_blank" href="/robot/coddie.html"><img src="./src/img/robots/08_1280.jpg" alt="" class="rounded"></a>
+          <h5 class="robot-item-title mt-2">Teaching Assisstant Robot</h5>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4 robot-item text-center wow bounceInUp" data-wow-delay="0.2s">
+          <a target="_blank" href="robot/rosy.html"><img src="./src/img/robots/Rosy_cr.png" alt="" class="rounded"></a>
+          <h5 class="robot-item-title mt-2">Corierge Robot</h5>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4 robot-item text-center wow bounceInUp" data-wow-delay="0.3s">
+          <a target="_blank" href="/robot/coddie.html"><img src="./src/img/robots/5d253a54a31058950191f23a.jpeg" alt="" class="rounded"></a>
+          <h5 class="robot-item-title mt-2">Librarian Robot</h5>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4 robot-item text-center wow bounceInUp" data-wow-delay="0.4s">
+          <a target="_blank" href="/robot/coddie.html"><img src="./src/img/robots/atlas.png" alt="" class="rounded"></a>
+          <h5 class="robot-item-title mt-2">Eldercare Robot</h5>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4 robot-item text-center wow bounceInUp" data-wow-delay="0.5s">
+          <a target="_blank" href="/robot/coddie.html"><img src="./src/img/robots/bfarsace_190919_3680_0038.jpg" alt="" class="rounded"></a>
+          <h5 class="robot-item-title mt-2">Outdoor Robot</h5>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4 robot-item text-center wow bounceInUp" data-wow-delay="0.6s">
+          <a target="_blank" href="/robot/coddie.html"><img src="./src/img/robots/robot-item1.png" alt="" class="rounded"></a>
+          <h5 class="robot-item-title mt-2">Customization Robot</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="my-5 blk-rosy text-center align-middle">
+
+    <h1 class="blk-sologan my-auto">Innovation and Excellence in Robotics and Cloud-based Content</h1>
+  </div>
+
+  <div class="container mt-3">
+
+    <div class=" my-5 blk-media text-center">
+      <h2 class="mx-auto"> The media mentioned us</h2>
+      <div class="row text-center">
+        <img class="media-logo mx-auto" src="./src/img/logo-media.png" />
+      </div>
+      <div class="row media-r py-3">
+        <div class="col-xs-12 col-lg-6 media-news">
+          <div class="row text-center">
+            <div class="col-xs-12 col-md-4">
+              <img src="./src/img/bbc.PNG" alt="" class="img-news">
+
+            </div>
+            <div class="col-xs-12 col-md-8 text-left">
+              <a target="_blank"
+                href="https://www.bbc.com/news/av/uk-england-manchester-21590186/robot-to-care-for-elderly-made-at-university-of-salford">
+                <h5>Singapore's robot exercise coach for the elderly</h5>
+              </a>
+              <strong>BBC News</strong>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-lg-6 media-news">
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              <img src="./src/img/theg.jpg" alt="" class="img-news">
+
+            </div>
+            <div class="col-xs-12 col-lg-6  text-left">
+              <a target="_blank"
+                href="https://www.theguardian.com/technology/2015/oct/14/singapore-introduces-robocoach-to-keep-older-citizens-in-shape">
+                <h5>Singapore introduces Robocoach to keep older citizens in shape</h5>
+              </a>
+              <strong>The Guardian</strong>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-lg-6 media-news my-3">
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              <img target="_blank" src="./src/img/icon16.png" alt="" class="img-news">
+
+            </div>
+            <div class="col-xs-12 col-lg-6  text-left">
+              <a target="_blank"
+                href="https://www.bbc.com/news/av/uk-england-manchester-21590186/robot-to-care-for-elderly-made-at-university-of-salford">
+                <h5>The story of Coddie : Teaching assistant robot in Singapore </h5>
+              </a>
+              <strong>CNA News</strong>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-lg-6 media-news my-3">
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              <img src="./src/img/Rosy.png" alt="" class="img-news">
+
+            </div>
+            <div class="col-xs-12 col-lg-6  text-left">
+              <a target="_blank"
+                href="https://www.bbc.com/news/av/uk-england-manchester-21590186/robot-to-care-for-elderly-made-at-university-of-salford">
+                <h5>Tiongseng construction group invests 1 millions to Essential Robot</h5>
+              </a>
+              <strong>Chanel 8</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact-us" class=" mb-5 blk-contact text-center wow bounceInUp">
+      <h2 class="mx-auto mb-3">Contact Us</h2>
+       <div class="row text-left">
+         <div class="col-xs-12 col-lg-6 my-3">
+          <label class="ct-label" for="name">Your name</label>
+          <input type="text" name="name" class="ct-input" placeholder="Enter Your Name">
+         </div>
+         <div class="col-xs-12 col-lg-6 my-3">
+          <label class="ct-label" for="name">Email</label>
+          <input type="text" name="name" class="ct-input" placeholder="Enter your email address">
+         </div>
+         <div class="col-xs-12 col-lg-12 my-3">
+          <label class="ct-label" for="name">Message</label>
+          <textarea name="message" class="ct-input" rows="4" cols="50"  placeholder="Write your message here, we will contact you as soon as possible..." ></textarea>
+        </div>
+        <div class="col-12 text-left">
+          <button style="background-color:#ff4b5a;" id="btn-submit" class="btn" type="button"><span>Submit</span></button>
+        </div>
+
+       </div>
+    </div>
+  </div>
+  <footer class="footer-container">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-xs-12 col-lg-3"><a href="#"><img class="footer-logo img-responsive" src="src/img/demo_logo.jpeg"
+              alt="Footer Logo"></a></div>
+        <div class=" col-xs-12 col-lg-9 text-center">
+          <div class="row text-center mx-auto">
+            <div class=" col-xs-12 col-lg-3">
+              <h3 class="footer-heading">Robots</h3>
+              <ul class="footer-list">
+                <li><a href="/robot/coddie.html">Teaching Assistant Robot</a></li>
+                <li><a href="/robot/rosy.html">Concierge Robot</a></li>
+                <li><a href="/robot/alpha.html">Librarian Robot</a></li>
+                <li><a href="/robot/robotcoach.html">Edercare Robot</a></li>
+                <li><a href="/robot/robotcoach.html">Outdoor Robot</a></li>
+                <li><a href="/robot/custom.html">Customization Robot</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-lg-3">
+              <h3 class="footer-heading">Email And Tel</h3>
+              <ul class="footer-list">
+                <li><a href="#">contact@essential.com</a></li>
+                <li><a href="#">[+65] 8486 9723</a></li>
+                <li><a href="#">[+84] 705 888 851</a></li>
+                <li><a href="#">Press &amp; Media</a></li>
+              </ul>
+            </div>
+
+            <div class="col-xs-12 col-lg-3">
+              <h3 class="footer-heading">Address</h3>
+              <ul class="footer-list">
+                <li><a target="_blank"  href="https://goo.gl/maps/iCaPNWDEwzmaYHsr6">535 Clementi Road, Singapore 599489 </a></li>
+                <li><a target="_blank" href="#">41/2B Tô Kí Street, Dicstric 12, HCMC, Vietnam</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-lg-3">
+              <h3 class="footer-heading">Language</h3>
+              <ul class="footer-list">
+                <li><a href="#">English</a></li>
+                <li><a href="#">中文</a></li>
+                <li><a href="#">Tiếng Việt</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="src/wow/wow.js"></script>
+<script src="src/js/main.js"></script>
+
+<script>
+new WOW().init();
+console.log("init wow");
+</script>
+
+</html>
+<!-- https://hackernoon.com/use-custom-domain-with-github-pages-2-straightforward-steps-cf561eee244f -->

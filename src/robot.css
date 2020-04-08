@@ -1,0 +1,32 @@
+#carousel-robot {
+    display: block;
+    position: relative;
+    /* The image used */
+    background-image: url("./img/cover1.jpg");
+    /* Full height */
+    height: 700px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+  }
+
+.blk-cover-sologan{
+    position: relative;
+    background-image: url("./img/robots/sologan_rosy.png");
+
+    /* The image used */
+    /* Full height */
+    height: 300px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+}
+
+.img-robot {
+    width: 100%;
+    height: auto;
+  }
